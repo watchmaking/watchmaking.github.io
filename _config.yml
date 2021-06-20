@@ -43,6 +43,7 @@ plugins:
 
 exclude:
   - .jekyll-cache
+  - deploy.sh
 
 defaults:
   -
