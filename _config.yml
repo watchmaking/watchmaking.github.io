@@ -22,6 +22,8 @@ collections:
 baseurl: ""
 url: "https://watchmaking.xyz"
 
+destination: docs
+
 sass:
     sass_dir: _sass
     style: compressed
