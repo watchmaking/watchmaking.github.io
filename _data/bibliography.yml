@@ -1,0 +1,111 @@
+- name: "Watchmaking, 2011 revision"
+  type: book
+  category: "George Daniels"
+  publisher: PWP
+  author: George Daniels
+  isbn: 9780856677045
+
+- name: "All in Good Time: Reflections of a Watchmaker, 2018 reprint"
+  type: book
+  category: "George Daniels"
+  publisher: PWP
+  author: George Daniels
+  isbn: 9780856676802
+
+- name: "Practical Watch Repairing, 3rd edition"
+  type: book
+  category: "Watch Repair"
+  publisher: NAG Press
+  author: Donald de Carle
+  isbn: 9780719800306
+
+- name: "Complicated Watches and Their Repair, 1977 revision"
+  type: book
+  category: "Watch Repair"
+  publisher: NAG Press
+  author: Donald de Carle
+  isbn: 9780719800900
+
+- name: "The Watchmaker's and Model Engineer's Lathe, 6th edition"
+  type: book
+  category: "Lathes"
+  publisher: The Crowood Press
+  author: Donald de Carle
+  isbn: 9780709090038
+
+- name: "Practical Watch Adjusting & Springing, 1977 reprint"
+  type: book
+  category: "Watch Adjusting"
+  publisher: NAG Press
+  author: Donald de Carle
+  isbn: 719800511
+
+- name: "Bench Practices for Watch Repairers, 2018 reprint"
+  type: book
+  category: "Watch Repair"
+  publisher: Martino Fine Books
+  author: Henry B. Fried
+  isbn: 9781684222483
+
+- name: "The Watch Repairer's Manual, 2nd edition"
+  type: book
+  category: "Watch Repair"
+  publisher: Martino Fine Books
+  author: Henry B. Fried
+  isbn: 9781684222209
+
+- name: "The Theory of Horology, 2nd English edition"
+  type: book
+  category: "Theory"
+  publisher: The Technical College of the Vallee De Joux
+  author:  C. Reymondin, G. Monnier, D. Jeanneret, U. Pelaratti
+  isbn: 9782940025121
+
+- name: "The Watchmaker and His Lathe"
+  type: book
+  category: "Lathes"
+  publisher: Lausanne
+  author: H. Jendritzki
+  isbn: 9782880120375
+
+- name: "Twenty-First Century Watchmaking, Book One"
+  type: book
+  category: "Manufacture"
+  publisher: AWI Press
+  author: William O. Smith
+  isbn: 0918845181
+
+- name: "Proper Workshop Working Conditions (English translation)"
+  type: document
+  category: "Industry"
+  format: PDF
+  author: Suva
+  url: /downloads/Proper%20Workshop%20Working%20Conditions%20SUVA-English%20Translation.pdf
+
+- name: "Robert Schumann's Advice to Young Musicians"
+  type: book
+  category: "Miscellaneous"
+  publisher: F&F
+  author: Robert Schumann
+  isbn: 9780571355686
+
+- name: "What is Art?"
+  type: book
+  category: "Miscellaneous"
+  publisher: Penguin Classics
+  author: Leo Tolstoy
+  isbn: 9780140446425
+
+- name: "Rule of St. Benedict in English"
+  type: book
+  category: "Miscellaneous"
+  publisher: Liturgical Press
+  author: Benedict of Nursia
+  isbn: 0814612725
+ 
+- name: "The New Jerusalem Bible, Study Edition"
+  type: book
+  category: "Miscellaneous"
+  publisher: ‎Darton, Longman & Todd
+  isbn: "0232520771"
+ 

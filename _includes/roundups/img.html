@@ -1,0 +1,3 @@
+{% if include.href %}<a href="{{ include.href }}" class="img">{% endif %}
+	<img src="//images.weserv.nl/?url={{ include.src | replace: "http://", "" }}&w=720&h=720&fit=inside&we&output=webp" alt="{{ include.alt }}">
+{% if include.href %}</a>{% endif %}

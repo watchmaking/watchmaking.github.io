@@ -1,0 +1,80 @@
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","url":"{{ site.url }}/","potentialAction":{"@type":"SearchAction","target":"{{ site.url }}/?q={search_term_string}","query-input": "required name=search_term_string"}}</script>
+
+<div class="row">
+	<div class="col-12">
+		<form class="search" method="get">
+			<input type="search" id="search-input" name="q" autocomplete="off" placeholder="Search the whole site...">
+			<label for="search-input">Press ⏎ Enter to search.</label>
+		</form>
+		<ul class="results" id="search-results"></ul>
+	</div>
+</div>
+
+<script>
+	{% include js/lunr.min.js %}
+
+	var documents = [
+		{% for post in site.posts %}
+			{
+				"url": "{{ post.url | xml_escape }}",
+				"type": "post",
+				"title": "{{ post.title | xml_escape }}",
+				"content": {{ post.content | strip_html | strip_newlines | jsonify }},
+				"excerpt": {{ post.excerpt | markdownify | strip_html | strip_newlines | jsonify }}
+			}{% if site.guides %},{% endif %}
+		{% endfor %}
+		{% for guide in site.guides %}
+			{
+				"url": "{{ guide.url | xml_escape }}",
+				"type": "guide",
+				"title": "{{ guide.title | xml_escape }}",
+				"content": {{ guide.content | strip_html | strip_newlines | jsonify }},
+				"description": {{ guide.description | markdownify | strip_html | strip_newlines | jsonify }}
+			}{% if forloop.last == false %},{% endif %}
+		{% endfor %}
+	];
+
+	function getQueryVariable(variable) {
+		var q = window.location.search.substring(1);
+		var vars = q.split("&");
+		for (var i = 0; i < vars.length; i++) {
+			var pair = vars[i].split("=");
+			if (pair[0] === variable) {
+				return decodeURIComponent(pair[1].replace(/\+/g, "%20"));
+			}
+		}
+	}
+
+	function displayResults(results, data) {
+		var searchResults = document.getElementById("search-results");
+		var str = "";
+		if (results.length) {
+			str += "<p> Displaying " + results.length + " search result" + (results.length > 1 ? "s" : "") + ".</p>";
+			results.forEach(function (r) {
+				var doc = documents.find(d => d.url == r.ref);
+				if (doc.type == "post") {
+					str += "<li class='post'><h2><a href='" + doc.url + "'>" + doc.title + "</a></h2><p>" + doc.excerpt + "</p></li>";
+				} else if (doc.type == "guide") {
+					str += "<li><h2><a href='" + doc.url + "'>" + doc.title + "</a></h2><p>" + doc.description + "</p></li>";
+				}
+			});
+		} else {
+			str += "<li class='no-results'>Could not find any results. Please try again with a different keyword.</li>";
+		}
+		searchResults.innerHTML = str;
+	}
+
+	var searchTerm = getQueryVariable("q");
+	if (searchTerm) {
+		document.getElementById("search-input").setAttribute("value", searchTerm);
+		var idx = lunr(function () {
+			this.ref("url");
+			this.field("title", { "boost": 10 });
+			this.field("excerpt", { "boost": 10 });
+			this.field("description", { "boost": 10 });
+			this.field("content");
+			documents.forEach(function (d) { this.add(d); }, this);
+		});
+		displayResults(idx.search(searchTerm), documents);
+	}
+</script>

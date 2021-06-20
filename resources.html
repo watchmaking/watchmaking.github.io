@@ -1,0 +1,33 @@
+---
+layout: default
+permalink: /resources
+title: Resources
+---
+
+<div itemprop="hasPart" itemscope itemtype="https://schema.org/CollectionPage" class="row">
+	<div class="col-8 resources">
+		<h1>{{ page.title }}</h1>
+		{% assign categories = site.data.resources | group_by: "category" | sort: "name" | where_exp: "c", "c.name != 'hide'" %}
+		{% for category in categories %}
+			<h2 id="{{ category.name | slugify }}">{{ category.name }}</h2>
+			{% assign items = category.items | sort: "name" %}
+			{% for item in items %}
+				{% if item.type == "website" %}
+					<div itemprop="hasPart" itemscope itemtype="https://schema.org/WebSite" class="item">
+						<h3><a itemprop="url" href="{{ item.url }}" target="_blank"><span itemprop="name">{{ item.name }}</span></a></h3>
+						<h4> by <span itemprop="author">{{ item.author }}</span></h4>
+					</div>
+				{% elsif item.type == "video" %}
+					<div itemprop="hasPart" itemscope itemtype="https://schema.org/VideoObject" class="item">
+						<meta itemprop="uploadDate" content="{{ item.uploadDate }}">
+						<meta itemprop="description" content="{{ item.description }}">
+						<meta itemprop="thumbnailUrl" content="{{ item.thumbnailUrl }}">
+						<h3><a itemprop="contentUrl" href="{{ item.url }}" target="_blank"><span itemprop="name">{{ item.name }}</span></a></h3>
+						<h4> by <span itemprop="author">{{ item.author }}</span>, {{ item.publisher }}</h4>
+					</div>
+				{% endif %}
+			{% endfor %}
+		{% endfor %}
+	</div>
+	{% include aside.html categories=categories %}
+</div>

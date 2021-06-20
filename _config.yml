@@ -1,0 +1,53 @@
+title: Watchmaking
+description: "A watchmaking student's resource, study guide and blog."
+
+about-blog: "The purpose of this student blog is to document the time spent studying the two-year *WOSTEP 3'000-hour Program* at a watchmaking school in Europe. The course began in January 2021."
+
+disclaimers:
+  views-and-opinions: "Any views or opinions represented on this website are personal and belong solely to the website owner and do not represent those of people, institutions or organizations that the owner may or may not be associated with in professional or personal capacity."
+  fair-use: "This site is for educational purposes only. Copyright disclaimer: allowance is made for 'fair use' for purposes such as criticism, comment, news reporting, teaching, scholarship, education and research. Fair use is a use permitted by copyright statute that might otherwise be infringing."
+  external-links: "Throughout the site you will find links to external websites, marked with a <a target='_blank'></a> icon. Although every effort is made to ensure these links are accurate, up to date and relevant, we cannot take responsibility for pages maintained by external providers."
+
+keywords: watchmaking,horology,time,student,study,learn,school,course,hobby,history,terms,tools,techniques,resources,references,education,exam,wiki,definition,index,bibliography,books,guides,videography,videos
+author: watchmaking.xyz
+logo: /favicon-256x256.png
+
+permalink: /student-blog/:title
+
+collections:
+  guides:
+    output: true
+    permalink: /guides/:title
+
+baseurl: ""
+url: "https://watchmaking.xyz"
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+jekyll-minifier:
+  compress_javascript: false
+  uglifier_args:
+    harmony: true
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-last-modified-at
+  - jekyll-sitemap
+  - jekyll-target-blank
+  - jekyll-loading-lazy
+  - jekyll-minifier
+
+exclude:
+  - .jekyll-cache
+
+defaults:
+  -
+    scope:
+      path: "downloads/*.pdf"
+    values:
+      sitemap: false
+
+target-blank:
+   noreferrer: false

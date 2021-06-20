@@ -1,0 +1,30 @@
+---
+layout: default
+permalink: /bibliography
+title: Bibliography
+---
+
+<div itemprop="hasPart" itemscope itemtype="https://schema.org/CollectionPage" class="row">
+	<div class="col-8 bibliography">
+		<h1>{{ page.title }}</h1>
+		{% assign categories = site.data.bibliography | group_by: "category" | sort: "name" %}
+		{% for category in categories %}
+			<h2 id="{{ category.name | slugify }}">{{ category.name }}</h2>
+			{% assign items = category.items | sort: "name" %}
+			{% for item in items %}
+				{% if item.type == "book" %}
+					<div itemprop="hasPart" itemscope itemtype="https://schema.org/Book" class="item">
+						<h3>{% if item.url %}<a itemprop="url" href="{{ item.url }}" target="_blank">{% endif %}<span itemprop="name">{{ item.name }}</span>{% if item.url %}</a>{% endif %}</h3>
+						<h4>{% if item.author %}by <span itemprop="author">{{ item.author }}</span>, {% endif %}{% if item.publisher %}<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><span itemprop="name">{{ item.publisher }}</span></span>, {% endif %}ISBN <span itemprop="isbn">{{ item.isbn }}</span></h4>
+					</div>
+				{% elsif item.type == "document" %}
+					<div itemprop="hasPart" itemscope itemtype="https://schema.org/DigitalDocument" class="item">
+						<h3>{% if item.url %}<a itemprop="url" href="{{ item.url }}" target="_blank">{% endif %}<span itemprop="name">{{ item.name }}</span>{% if item.url %}</a>{% endif %}</h3>
+						<h4>by <span itemprop="author">{{ item.author }}</span>, <span itemprop="encodingFormat">{{ item.format }}</span></h4>
+					</div>
+				{% endif %}
+			{% endfor %}
+		{% endfor %}
+	</div>
+	{% include aside.html categories=categories %}
+</div>

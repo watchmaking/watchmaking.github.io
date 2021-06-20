@@ -1,0 +1,20 @@
+<div class="row roundups">
+	<div class="col-4">
+		{% include roundups/img.html href=include.href1 src=include.img1 alt=include.text1 %}
+		<p>
+			<a href="{{ include.href1 }}">{{ include.text1 }}</a>
+		</p>
+	</div>
+	<div class="col-4">
+		{% include roundups/img.html href=include.href2 src=include.img2 alt=include.text2 %}
+		<p>
+			<a href="{{ include.href2 }}">{{ include.text2 }}</a>
+		</p>
+	</div>
+	<div class="col-4">
+		{% include roundups/img.html href=include.href3 src=include.img3 alt=include.text3 %}
+		<p>
+			<a href="{{ include.href3 }}">{{ include.text3 }}</a>
+		</p>
+	</div>
+</div>

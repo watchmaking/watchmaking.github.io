@@ -1,0 +1,37 @@
+---
+layout: default
+permalink: /student-blog
+title: Student Blog
+---
+
+<div itemprop="hasPart" itemscope itemtype="https://schema.org/Blog" class="row">
+	<div class="row">
+		<div class="col-12 blog-about">
+			<h1>{{ page.title }}</h1>
+			{{ site.about-blog | markdownify }}
+		</div>
+	</div>
+	<div class="col-12 student-blog-posts">
+		<ul>
+			{% for post in site.posts %}
+				<li itemprop="hasPart" itemscope itemtype="https://schema.org/BlogPosting">
+					<meta itemprop="author" content="{{ site.author }}">
+					<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="{{ site.author }}"><meta itemprop="url" content="{{ site.url }}"><span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><meta itemprop="url" content="{{ site.logo }}"></span></span>
+					<meta itemprop="dateModified" content='{{ post.last_modified_at | date: "%d %B %Y  %H:%M" }}'>
+
+					<h2>
+						<a itemprop="url" href="{{ post.url }}">
+							<span itemprop="headline">{{ post.title }}</span>
+						</a>
+					</h2>
+					<h3>Published: <span itemprop="datePublished">{{ post.date | date_to_long_string }}</span> <span class="sep">·</span> Last updated: <span itemprop="dateModified">{{ post.last_modified_at | date: "%d %B %Y  %H:%M" }}</span></h3>
+					<a href="{{ post.url }}"><img itemprop="image" src="{{ post.image }}" alt="{{ post.image-alt  }}" /></a>
+					<div class="excerpt">
+						<span itemprop="mainEntityOfPage" class="excerpt">{{ post.excerpt }}</span>
+						<a href="{{ post.url }}" class="continue-reading">Continue reading →</a>
+					</div>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>

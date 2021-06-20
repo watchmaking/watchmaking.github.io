@@ -1,0 +1,90 @@
+<!doctype html>
+<html itemscope itemtype="https://schema.org/WebSite" lang="en">
+  <head>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
+
+	{% capture title %}{{ site.title }} | {{ page.title }}{% endcapture %}
+	<title>{{ title }}</title>
+
+	<meta itemprop="url" content="{{site.url}}{{page.url}}">
+	<meta itemprop="name" content="{{ title }}">
+
+	{% capture description %}{% if page.description %}{{ page.description | markdownify | strip_html | strip_newlines | escape }}{% elsif page.excerpt %}{{ page.excerpt }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
+	<meta itemprop="description" content="{{ description }}">
+	<meta name="description" content="{{ description }}">
+
+	{% capture keywords %}{{ site.keywords }}{% if page.keywords %},{{ page.keywords }}{% endif %}{% endcapture %}
+	<meta name="keywords" content="{{ keywords }}">
+	<meta itemprop="keywords" content="{{ keywords }}">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#1e01ef">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#1e01ef">
+
+	<!-- Facebook integration -->
+	<meta property="og:title" content="{{ page.title }}"/>
+	{% if page.image %}<meta property="og:image" content="{{ page.image | prepend: site.url }}"/>{% endif %}
+	<meta property="og:url" content="{{ page.url | prepend: site.url }}"/>
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="{{ title }}"/>
+	<meta property="og:description" content="{{ description }}"/>
+
+	<!-- Twitter integration -->
+	<meta name="twitter:card" content="summary">
+	{% if site.twitter_url %}<meta name="twitter:site" content="{{ site.twitter_url }}">{% endif %}
+	<meta name="twitter:title" content="{{ title }}" />
+	{% if page.image %}<meta name="twitter:image" content="{{ site.url }}{{ page.image }}" />{% endif %}
+	<meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
+	<meta name="twitter:description" content="{{ description }}" />
+
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml"  | prepend: site.url }}">
+	<link rel="sitemap" type="application/xml" title="Sitemap" href="{{ "/sitemap.xml" | prepend: site.url }}" />
+
+	<link href="//images.weserv.nl" rel="preconnect">
+	<link href="//images.weserv.nl" rel="dns-prefetch">
+
+	{% capture styles %}
+	{% include_cached css/main.scss %}
+	{% endcapture %}
+	<style>
+		{{ styles | scssify }}
+	</style>
+  </head>
+  <body name="top">
+    <header itemprop="hasPart" itemscope itemtype="http://schema.org/WPHeader" class="row">
+	  <div class="col-12">
+	  	<div itemprop="name" class="logo"><a href="/">{{ site.title }}</a></div>
+	  	<small itemprop="description">{{ site.description }}</small>
+	  </div>
+	</header>
+
+	{% if site.data.nav.items %}
+	  <nav itemprop="hasPart" itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="row navigation">
+	    <ul class="col-12">
+	      {% for item in site.data.nav.items %}
+	        <li class="{{ item.class }}">
+	        	<a href="{{ item.url }}" {% if item.url == page.url %}class="active"{% endif %}>{{ item.title }}</a>
+	        </li>
+	      {% endfor %}
+	    </ul>
+	  </nav>
+	{% endif %}

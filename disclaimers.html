@@ -1,0 +1,20 @@
+---
+layout: default
+permalink: /disclaimers
+title: Disclaimers
+---
+
+<div class="row">
+	<div class="col-12">
+		<h1>Disclaimers</h1>
+
+		<h2>Views and opinions</h2>
+		<p>{{ site.disclaimers.views-and-opinions | markdownify }}</p>
+
+		<h2>Fair use</h2>
+		<p>{{ site.disclaimers.fair-use | markdownify }}</p>
+
+		<h2>External links</h2>
+		<p>{{ site.disclaimers.external-links | liquify | markdownify }}</p>
+	</div>
+</div>

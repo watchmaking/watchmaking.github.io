@@ -1,0 +1,283 @@
+- name: "Richard Watkins Horological Books"
+  type: website
+  category: "Books"
+  author: Richard Watkins
+  url: https://www.watkinsr.id.au/
+
+- name: "csparks: Watchmaking"
+  type: website
+  category: "Watchmakers' blogs and websites"
+  author: Hugh Sparks
+  url: https://www.csparks.com/watchmaking/index.html
+
+- name: "The Naked Watchmaker, insight into the heart of watchmaking"
+  type: website
+  category: "Watchmakers' blogs and websites"
+  author: Peter Speake-Marin
+  url: https://www.thenakedwatchmaker.com/
+
+- name: "The Naked Watchmaker, 'People' section"
+  type: webpage
+  category: hide
+  author: Peter Speake-Marin
+  url: https://www.thenakedwatchmaker.com/people
+
+- name: "Roger W. Smith, journal"
+  type: website
+  category: "Watchmakers' blogs and websites"
+  author: Roger W. Smith
+  url: https://www.rwsmithwatches.com/journal/
+
+- name: "Watchmaking School from a Student's Perspective"
+  type: website
+  category: "Watchmakers' blogs and websites"
+  author: Nathan Bobinchak
+  url: http://www.bobinchak.com/
+
+- name: "Adventures in Watchmaking, journal of experiences in watchmaking"
+  type: website
+  category: "Watchmakers' blogs and websites"
+  author: unknown
+  url: https://watchmaking.weebly.com/
+
+- name: "Adventures in Watchmaking, Introduction - What is this all about?"
+  type: webpage
+  category: hide
+  author: unknown
+  url: https://watchmaking.weebly.com/introduction.html
+
+- name: "Ashton Tracy, past projects blog"
+  type: website
+  category: "Watchmakers' blogs and websites"
+  author: Ashton Tracy
+  url: https://ashtontracy.ca/blog/
+
+- name: "17jewels, movement archive"
+  type: website
+  category: "Watchmakers' blogs and websites"
+  author: Christoph Lorenz
+  url: https://17jewels.info/
+
+- name: "Watch Guy, watch repair blog"
+  type: website
+  category: "Watchmakers' blogs and websites"
+  author: Christian Dannemann
+  url: https://watchguy.co.uk/
+
+- name: "Horlogerie Watchtyme Montreal, past watch repairs"
+  type: website
+  category: "Watchmakers' blogs and websites"
+  author: Chris Marcellin
+  url: http://watchtyme.net/category/watch-repair/
+
+- name: "Now you know I know that you know: WOSTEP Switzerland 2011 Graduate"
+  type: website
+  category: "Watchmakers' blogs and websites"
+  author: Aaron Sarauer
+  url: http://nowyouknowiknowthatyouknow.blogspot.com/
+
+- name: "Watch movements - A passion | Uhrwerke - Eine Leidenschaft"
+  type: website
+  category: "Enthusiasts' blogs and websites"
+  author: Andreas Kelz
+  url: https://watch-movements.eu/blog/en/
+
+- name: "Vintage Watch Straps (History, Companies, About Watches sections)"
+  type: website
+  category: "Enthusiasts' blogs and websites"
+  author: David Boettcher
+  url: https://www.vintagewatchstraps.com/index.php
+
+- name: "Horology Student - Information for watch enthusiasts"
+  type: website
+  category: "Enthusiasts' blogs and websites"
+  author: David Wanstall
+  url: https://horology-student.org/
+
+- name: "WatchBase, online watch database"
+  type: website
+  category: "Databases"
+  author: A. Hoogerdijk, A.B. Joseph, D.V. Boom
+  url: https://watchbase.com/
+
+- name: "bidfun-db Archive: Watch Movements"
+  type: website
+  category: "Databases"
+  author: Roland Ranfft
+  url: http://www.ranfft.de/cgi-bin/bidfun-db.cgi?10&ranfft&&2uswk
+
+- name: "Caliber Corner Watch Movement Database"
+  type: website
+  category: "Databases"
+  author: KeepTheTime Project
+  url: https://calibercorner.com/
+
+- name: "Pocket Watch Database, serial lookup & information"
+  type: website
+  category: "Databases"
+  author: Pocket Watch Database
+  url: https://pocketwatchdatabase.com/
+
+- name: "George Daniels interview playlist"
+  type: video
+  category: "Video interviews"
+  publisher: YouTube
+  author: Web of Stories
+  uploadDate: 13 July 2017
+  thumbnailUrl: https://img.youtube.com/vi/10bpIC1g8tM/0.jpg
+  description: English watch-maker George Daniels (1926-2011) was most famous for creating the co-axial escarpment and could make a complete watch by hand.
+  url: https://www.youtube.com/playlist?list=PLVV0r6CmEsFzkr4WCsqrhvkOpA-pLIGmS
+
+- name: "Don't Try - The Philosophy of Charles Bukowski"
+  type: video
+  category: "Miscellaneous videos"
+  publisher: YouTube
+  author: Persuit of Wonder
+  uploadDate: 3 Dec 2019
+  thumbnailUrl: http://i3.ytimg.com/vi/eMTDAHK-tkE/maxresdefault.jpg
+  description: Charles Bukowski is an iconic writer from the 20th century known for producing some of the rawest and most honest stories and poems of recent history. His own story included.
+  url: https://youtu.be/eMTDAHK-tkE
+
+- name: "Brain Foods and Brain Healthy Nutrition"
+  type: webpage
+  category: hide
+  author: BrainHQ
+  url: https://www.brainhq.com/brain-resources/brain-healthy-foods-nutrition
+
+- name: "11 Best Foods to Boost Your Brain and Memory"
+  type: webpage
+  category: hide
+  author: Healthline
+  url: https://www.healthline.com/nutrition/11-brain-foods
+
+- name: "7 Best Foods for Healthy Eyes"
+  type: webpage
+  category: hide
+  author: Healthline
+  url: https://www.healthline.com/health/eye-health/best-foods-for-eyes
+
+- name: "The 7 Worst Foods for Your Brain"
+  type: webpage
+  category: hide
+  author: Healthline
+  url: https://www.healthline.com/nutrition/worst-foods-for-your-brain
+
+- name: "The MIND Diet: A Detailed Guide for Beginners"
+  type: webpage
+  category: hide
+  author: Healthline
+  url: https://www.healthline.com/nutrition/mind-diet
+
+- name: "How Much Water Should You Drink Per Day?"
+  type: webpage
+  category: hide
+  author: Healthline
+  url: https://www.healthline.com/nutrition/how-much-water-should-you-drink-per-day
+
+- name: "7 Science-Based Health Benefits of Drinking Enough Water"
+  type: webpage
+  category: hide
+  author: Healthline
+  url: https://www.healthline.com/nutrition/7-health-benefits-of-water
+
+- name: "Physical Exercise for Brain Health"
+  type: webpage
+  category: hide
+  author: BrainHQ
+  url: https://www.brainhq.com/brain-resources/everyday-brain-fitness/physical-exercise/
+
+- name: "Practical Ways to Keep Your Mind Sharp"
+  type: webpage
+  category: hide
+  author: BrainHQ
+  url: https://www.brainhq.com/brain-resources/everyday-brain-fitness/brain-fitness-tips/
+
+- name: "12 Tips to Improve Your Concentration"
+  type: webpage
+  category: hide
+  author: Healthline
+  url: https://www.healthline.com/health/mental-health/how-to-improve-concentration
+
+- name: "10 Reasons Why Good Sleep Is Important"
+  type: webpage
+  category: hide
+  author: Healthline
+  url: https://www.healthline.com/nutrition/10-reasons-why-good-sleep-is-important
+
+- name: "17 Proven Tips to Sleep Better at Night"
+  type: webpage
+  category: hide
+  author: Healthline
+  url: https://www.healthline.com/nutrition/17-tips-to-sleep-better
+
+- name: "A Day Inside Patek Philippe's School, Where the Next Generation of Watchmakers Is Trained"
+  type: webpage
+  category: hide
+  author: GQ
+  url: https://www.gq.com/story/inside-patek-philippe-watch-school
+
+- name: "From the bench: François-Paul Journe"
+  type: webpage
+  category: hide
+  author: A Collected Man
+  url: https://www.acollectedman.com/blogs/journal/from-the-bench-f-p-journe
+
+- name: "From the Bench: Philippe Dufour"
+  type: webpage
+  category: hide
+  author: A Collected Man
+  url: https://www.acollectedman.com/blogs/journal/from-the-bench-philippe-dufour
+
+- name: "The Naked Watchmaker: Kari Voutilainen interview"
+  type: webpage
+  category: hide
+  author: Peter Speake-Marin
+  url: https://www.thenakedwatchmaker.com/people-kari-v
+
+- name: "The Naked Watchmaker: Vianney Halter interview"
+  type: webpage
+  category: hide
+  author: Peter Speake-Marin
+  url: https://www.thenakedwatchmaker.com/people-vianney-halter-eng
+
+- name: "The Naked Watchmaker: Andreas Strehler interview"
+  type: webpage
+  category: hide
+  author: Peter Speake-Marin
+  url: https://www.thenakedwatchmaker.com/people-andreas-strehler
+
+- name: "The Naked Watchmaker: Robert Loomes interview"
+  type: webpage
+  category: hide
+  author: Peter Speake-Marin
+  url: https://www.thenakedwatchmaker.com/people-robert-loomes
+
+- name: "Off Hours: Christian Lass interview Part I"
+  type: webpage
+  category: hide
+  author: J. Edwards, C. Manning
+  url: https://offhours.show/ep72/
+
+- name: "Off Hours: Christian Lass interview Part II"
+  type: webpage
+  category: hide
+  author: J. Edwards, C. Manning
+  url: https://offhours.show/ep73/
+
+- name: "How to Get into Watchmaking"
+  type: webpage
+  category: hide
+  author: No BS Watchmaker
+  url: https://nobswatchmaker.com/blog/how-to-get-into-watchmaking
+
+- name: "How to Become a Watchmaker - Part One - Introduction"
+  type: webpage
+  category: hide
+  author: Colin Andrews
+  url: https://www.great-british-watch.co.uk/how-to-become-a-watchmaker-part-one-introduction/
+
+- name: "Watchmaker Training and Education - How to Become a Watchmaker"
+  type: webpage
+  category: hide
+  author: Colin Andrews
+  url: https://www.great-british-watch.co.uk/watchmaker-training-and-education-how-to-become-a-watchmaker/

@@ -1,0 +1,27 @@
+{% include header.html %}
+<main class="container">
+	<div class="row">
+		<article itemprop="hasPart" itemscope itemtype="https://schema.org/BlogPosting" class="col-12 post">
+			<meta itemprop="author" content="{{ site.author }}">
+			<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="{{ site.author }}"><meta itemprop="url" content="{{ site.url }}"><span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><meta itemprop="url" content="{{ site.logo }}"></span></span>
+			<meta itemprop="image" content="{{ page.image }}">
+	  		<h1><span class="breadcrumb"><a href="/student-blog">Student Blog</a> /</span> <span itemprop="headline">{{ page.title }}</span></h1>
+	  		<div class="last-updated">Published: <span itemprop="datePublished">{{ page.date | date_to_long_string }}</span> <span class="sep">·</span> Last updated: <span itemprop="dateModified">{{ page.last_modified_at | date: "%d %B %Y  %H:%M" }}</span></div>
+	    	<div itemprop="mainEntityOfPage">{{ content }}</div>
+	  	</article>
+	</div>
+	<div class="row post-nav">
+		<div class="col-6 prev">
+			{% if page.previous.url %}
+				<a href="{{page.previous.url}}">← {{page.previous.title}}</a>
+			{% endif %}
+		</div>
+		<div class="col-6 next">
+			{% if page.next.url %}
+				<a href="{{page.next.url}}">{{page.next.title}} →</a>
+			{% endif %}
+		</div>
+	</div>
+</main>
+
+{% include_cached footer.html %}

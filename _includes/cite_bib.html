@@ -1,0 +1,9 @@
+{% assign ref = site.data.bibliography | find: "name", include.t %}
+{% if ref.type == "book" %}<cite itemscope itemtype="https://schema.org/Book">
+	<meta itemprop="isbn" content="{{ ref.isbn }}">
+	{% if ref.url %}<a itemprop="url" href="{{ ref.url }}" target="_blank">{% endif %}<span itemprop="name">{{ include.t }}</span>{% if ref.url %}</a>{% endif %} by <span itemprop="author">{{ ref.author }}</span>, <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><span itemprop="name">{{ ref.publisher }}</span></span>{% if include.p %}, <span itemprop="hasPart" itemscope itemtype="https://schema.org/PublicationVolume">p. <span itemprop="pagination">{{ include.p }}</span></span>{% endif %}
+</cite>
+{% elsif ref.type == "document" %}<cite itemscope itemtype="https://schema.org/DigitalDocument">
+	{% if ref.url %}<a itemprop="url" href="{{ ref.url }}" target="_blank">{% endif %}<span itemprop="name">{{ include.t }}</span>{% if ref.url %}</a>{% endif %} by <span itemprop="author">{{ ref.author }}</span>, <span itemprop="encodingFormat">{{ ref.format }}</span>{% if include.p %}, <span itemprop="hasPart" itemscope itemtype="https://schema.org/PublicationVolume">p. <span itemprop="pagination">{{ include.p }}</span></span>{% endif %}
+</cite>
+{% endif %}

@@ -1,0 +1,17 @@
+---
+layout: guide
+category: Ora et Labora
+title: Obedience
+description: Chapters on obedience and good zeal from *The Rule of St. Benedict*, a rule for monks living communally under the authority of an abbot, also applicable to apprentices and school students.
+keywords: spirit,obedience,saint,benedict,rule,monasticism,monks,apprentices,students
+---
+
+## Obedience
+The first step of humility is unhesitating obedience, which comes naturally to those who cherish Christ above all. Because of the holy service they have professed, or because of dread of hell and for the glory of everlasting life, they carry out the superior's order as promptly as if the command came from God himself. The Lord says of men like this: *No sooner did he hear than he obeyed me* (Ps 17[18]:45); again he tells teachers: *Whoever listens to you, listens to me* (Luke 10:16). Such people as these immediately put aside their own concerns, abandon their own will, and lay down whatever they have in hand, leaving it unfinished. With the ready step of obedience, they follow the voice of authority in their actions. Almost at the same moment, then, as the master gives the instruction the disciple quickly puts it into practice in the fear of God; and both actions together are swiftly completed as one.
+
+It is love that impels them to pursue everlasting life; therefore, they are eager to take the narrow road of which the Lord says: *Narrow is the road that leads to life* (Matt 7:14). They no longer live by their own judgment, giving in to their whims and appetites; rather they walk according to another's decisions and directions, choosing to live in monasteries and to have an abbot over them. Men of this resolve unquestionably conform to the sayings of the Lord: *I have come not to do my own will, but the will of him who sent me* (John 6:38).
+
+This very obedience, however, will be acceptable to God and agreeable to men only if compliance with what is commanded is not cringing or sluggish or halfhearted, but free from any grumbling or any reaction of unwillingness. For the obedience shown to superiors is given to God, as he himself said: *Whoever listens to you, listens to me* (Luke 10:16). Furthermore, the disciples' obedience must be given gladly, for *God loves a cheerful giver* (2 Cor 9:7). If a disciple obeys grudgingly and grumbles, not only aloud but also in his heart, then, even though he carries out the order, his action will not be accepted with favor by God, who sees that he is grumbling in his heart. He will have no reward for service of this kind; on the contrary, he will incur punishment for grumbling, unless he changes for the better and makes amends.
+
+## The Good Zeal of Monks
+Just as there is a wicked zeal of bitterness which separates from God and leads to hell, so there is a good zeal which separates from evil and leads to God and everlasting life. This, then, is the good zeal which monks must foster with fervent love: *They should each try to be the first to show respect to the other* (Rom 12:10), supporting with the greatest patience one another's weaknesses of body or behavior, and earnestly competing in obedience to one another. No one is to pursue what he judges better for himself, but instead, what he judges better for someone else. To their fellow monks they show the pure love of brothers; to God, loving fear; to their abbot, unfeigned and humble love. Let them prefer nothing whatever to Christ, and may he bring us all together to everlasting life.

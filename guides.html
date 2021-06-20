@@ -1,0 +1,30 @@
+---
+layout: default
+permalink: /guides
+title: Guides
+---
+
+<div itemprop="hasPart" itemscope itemtype="https://schema.org/CollectionPage" class="row">
+	<div class="col-8 guides">
+		<h1>{{ page.title }}</h1>
+		{% assign categories = site.guides | group_by: "category" | sort: "name" %}
+		{% for category in categories %}
+			<section>
+				<h2>{{ category.name }}</h2>
+				<ul>
+					{% for item in category.items %}
+						<li itemprop="hasPart" itemscope itemtype="https://schema.org/ItemPage">
+							<h3>
+								<a itemprop="url" href="{{ item.url }}">
+									<span itemprop="name">{{ item.title }}</span>
+								</a>
+							</h3>
+							<div itemprop="description">{{ item.description | markdownify }}</div>
+						</li>
+					{% endfor %}
+				</ul>
+			</section>
+		{% endfor %}
+	</div>
+	{% include aside.html categories=categories %}
+</div>

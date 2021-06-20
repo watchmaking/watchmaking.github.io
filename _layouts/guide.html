@@ -1,0 +1,11 @@
+{% include header.html %}
+<main class="container">
+	<div class="row">
+		<article itemprop="hasPart" itemscope itemtype="https://schema.org/WebPage" class="col-12 guide">
+	  		<h1><span class="breadcrumb"><a href="/guides">Guides</a> /</span> <span itemprop="name">{{ page.title }}</span></h1>
+	      	<div itemprop="description" class="description">{{ page.description | markdownify }}</div>
+	    	<div itemprop="text">{{ content }}</div>
+	  	</article>
+	</div>
+</main>
+{% include_cached footer.html %}

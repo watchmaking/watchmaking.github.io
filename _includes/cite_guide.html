@@ -1,0 +1,4 @@
+{% assign guide = site.guides | find: "title", include.guide %}
+<cite itemscope itemtype="https://schema.org/WebSite">
+	<a itemprop="url" href="{{ guide.url }}"><span itemprop="name">{{ guide.title }}</span></a> guide
+</cite>

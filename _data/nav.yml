@@ -1,0 +1,14 @@
+items:
+  - title: Student Blog
+    url: /student-blog
+
+  - title: Guides
+    url: /guides
+
+  - title: Resources
+    url: /resources
+    class: mobile-sm
+
+  - title: Bibliography
+    url: /bibliography
+    class: mobile-sm

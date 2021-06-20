@@ -1,0 +1,11 @@
+{% assign ref = site.data.resources | find: "name", include.t %}
+{% if ref.type == "website" or ref.type == "webpage" %}<cite itemscope itemtype="https://schema.org/WebSite">
+	<a itemprop="url" href="{{ ref.url }}" target="_blank"><span itemprop="name">{{ include.t }}</span></a> by <span itemprop="author">{{ ref.author }}</span>{% if include.ref_section %}, {{ include.ref_section }}{% endif %}
+</cite>
+{% elsif ref.type == "video" %}<cite itemscope itemtype="https://schema.org/VideoObject">
+	<meta itemprop="uploadDate" content="{{ ref.uploadDate }}">
+	<meta itemprop="description" content="{{ ref.description }}">
+	<meta itemprop="thumbnailUrl" content="{{ ref.thumbnailUrl }}">
+	<a itemprop="contentUrl" href="{{ ref.url }}" target="_blank"><span itemprop="name">{{ include.t }}</span></a> by <span itemprop="author">{{ ref.author }}</span>, {{ ref.publisher }}
+</cite>
+{% endif %}
