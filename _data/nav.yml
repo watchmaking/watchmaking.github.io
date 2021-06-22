@@ -1,4 +1,7 @@
 items:
+  - title: Home
+    url: /
+
   - title: Student Blog
     url: /student-blog
 
@@ -7,8 +10,3 @@ items:
 
   - title: Resources
     url: /resources
-    class: mobile-sm
-
-  - title: Bibliography
-    url: /bibliography
-    class: mobile-sm
