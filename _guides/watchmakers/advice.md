@@ -6,6 +6,10 @@ description: Excerpts from George Daniels and Donald de Carle books, and a compi
 keywords: watchmakers,advice
 ---
 
+> Enter through the narrow gate; for the gate is wide and the road is easy that leads to destruction, and there are many who take it. For the gate is narrow and the road is hard that leads to life, and there are few who find it.
+>
+> <cite>Matthew 7:13-14</cite>
+
 > Keep sober and alert, because your enemy the devil is on the prowl like a roaring lion, looking for someone to devour.
 >
 > <cite>1 Peter 5:8</cite>
