@@ -114,7 +114,7 @@ nav.navigation {
 		li {
 			display: inline;
 			a, a:visited { text-decoration: none; }
-			a:hover, a:focus, a.active { text-decoration: underline solid; }
+			a:hover, a:focus, a.active { text-decoration: underline; }
 			& + li { padding-left: 2em; }
 		}
 	}
