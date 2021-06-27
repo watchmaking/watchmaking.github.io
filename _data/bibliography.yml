@@ -75,6 +75,13 @@
   author: William O. Smith
   isbn: 0918845181
 
+- name: "Timepieces: Masters of Chronometry"
+  type: book
+  category: "History"
+  publisher: Firefly Books
+  author: David Christianson
+  isbn: 1552976548
+
 - name: "Proper Workshop Working Conditions (English translation)"
   type: document
   category: "Industry"

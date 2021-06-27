@@ -27,7 +27,7 @@ title: Student Blog
 					<h3>Published: <span itemprop="datePublished">{{ post.date | date_to_long_string }}</span> <span class="sep">·</span> Last updated: <span itemprop="dateModified">{{ post.last_modified_at | date: "%d %B %Y  %H:%M" }}</span></h3>
 					<a href="{{ post.url }}"><img itemprop="image" src="{{ post.image }}" alt="{{ post.image-alt  }}" /></a>
 					<div class="excerpt">
-						<span itemprop="mainEntityOfPage" class="excerpt">{{ post.excerpt }}</span>
+						<span itemprop="mainEntityOfPage" class="excerpt">{{ post.excerpt | markdownify }}</span>
 						<a href="{{ post.url }}" class="continue-reading">Continue reading →</a>
 					</div>
 				</li>
