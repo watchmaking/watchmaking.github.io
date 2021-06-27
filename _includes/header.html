@@ -4,7 +4,7 @@
 	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 	<meta content="utf-8" http-equiv="encoding">
 
-	{% capture title %}{{ site.title }} | {{ page.title }}{% endcapture %}
+	{% capture title %}{% unless page.no_site_title %}{{ site.title }} | {% endunless %}{{ page.title }}{% endcapture %}
 	<title>{{ title }}</title>
 
 	<meta itemprop="url" content="{{site.url}}{{page.url}}">
@@ -38,22 +38,6 @@
 	<meta name="msapplication-TileColor" content="#1e01ef">
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#1e01ef">
-
-	<!-- Facebook integration -->
-	<meta property="og:title" content="{{ page.title }}"/>
-	{% if page.image %}<meta property="og:image" content="{{ page.image | prepend: site.url }}"/>{% endif %}
-	<meta property="og:url" content="{{ page.url | prepend: site.url }}"/>
-	<meta property="og:type" content="article">
-	<meta property="og:site_name" content="{{ title }}"/>
-	<meta property="og:description" content="{{ description }}"/>
-
-	<!-- Twitter integration -->
-	<meta name="twitter:card" content="summary">
-	{% if site.twitter_url %}<meta name="twitter:site" content="{{ site.twitter_url }}">{% endif %}
-	<meta name="twitter:title" content="{{ title }}" />
-	{% if page.image %}<meta name="twitter:image" content="{{ site.url }}{{ page.image }}" />{% endif %}
-	<meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
-	<meta name="twitter:description" content="{{ description }}" />
 
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml"  | prepend: site.url }}">
