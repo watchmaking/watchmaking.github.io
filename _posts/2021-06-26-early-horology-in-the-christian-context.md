@@ -2,7 +2,7 @@
 layout: post
 image: /images/student-blog/medieval-monks.webp
 image-alt: "Medieval monks, extract from scroll"
-excerpt: "A handful of extracts from Christianson's book, *Timepieces: Masters of Chronometry*, which explain the influence of the Christian monastic tradition on timekeeping in the early days of horology."
+excerpt: "An extract from Christianson's book, *Timepieces: Masters of Chronometry*, which explains the influence of the Christian monastic tradition on the invention of the first all-mechanical clocks."
 title: "Timekeeping and Christian Monasticism"
 ---
 
