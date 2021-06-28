@@ -54,7 +54,6 @@ In the [Guides](/guides) section of the site, I added four new guides which cont
 {% include cite_guide.html guide="Obedience" %}
 
 ## Weekly Readings
-*I will plant a shoot on the high mountain of Israel*.
 > The Lord says this:
 >
 > ‘From the top of the cedar,<br>
@@ -72,7 +71,6 @@ In the [Guides](/guides) section of the site, I added four new guides which cont
 >
 > <cite>Ezekiel 17:22-24</cite>
 
-*The kingdom of God is a mustard seed growing into the biggest shrub of all*.
 > Jesus said to the crowds: ‘This is what the kingdom of God is like. A man throws seed on the land. Night and day, while he sleeps, when he is awake, the seed is sprouting and growing; how, he does not know. Of its own accord the land produces first the shoot, then the ear, then the full grain in the ear. And when the crop is ready, he loses no time: he starts to reap because the harvest has come.’
 >
 > He also said, ‘What can we say the kingdom of God is like? What parable can we find for it? It is like a mustard seed which at the time of its sowing in the soil is the smallest of all the seeds on earth; yet once it is sown it grows into the biggest shrub of them all and puts out big branches so that the birds of the air can shelter in its shade.’
