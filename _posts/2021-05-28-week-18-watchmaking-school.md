@@ -4,6 +4,7 @@ image: /images/student-blog/project-watch-hammered-finishing-practice.jpeg
 image-alt: "Project watch hammered finishing practice"
 excerpt: "Graver sharpening practice, more turning, dynamic poising support milling, good project watch progress including finished yoke and practice with hammered effect finishing."
 title: "Week 18: Watchmaking School"
+tags: watchmaking-school-weekly
 ---
 
 {{ page.excerpt }}

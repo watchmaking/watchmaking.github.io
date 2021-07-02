@@ -4,6 +4,7 @@ image: /images/student-blog/encasing-2824-2.jpeg
 image-alt: Encasing ETA 2824-2
 excerpt: This week we focused on theory of escapements, as well as mixing up different movements and assembling them again.
 title: "Week 5: Remote Watchmaking School"
+tags: remote-watchmaking-school-weekly
 ---
 
 {{ page.excerpt }}

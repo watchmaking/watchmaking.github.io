@@ -4,6 +4,7 @@ image: /images/student-blog/practicing-turning-shoulders-and-points-in-steel.jpe
 image-alt: "Practicing turning shoulders and points in steel to dimension"
 excerpt: "Graver sharpening and polishing, practicing turning in brass and steel, practicing turning shoulders and points to dimensions, making some tools used for finishing project watch components."
 title: "Week 17: Watchmaking School"
+tags: watchmaking-school-weekly
 ---
 
 {{ page.excerpt }}

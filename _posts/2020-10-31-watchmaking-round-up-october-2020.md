@@ -4,6 +4,7 @@ title: "Watchmaking Round-Up: October 2020"
 image: //images.weserv.nl/?url=//storage.googleapis.com/pubzapuscentral/watchprosite/breguet/138/raw/breguet_6671756.jpg&w=1024&h=1024&fit=inside&we&output=webp
 image-alt: Two Breguet wristwatches from the era of Chaumet, Bodet and Roth
 excerpt: An October watchmaking round-up from around the internet, focusing on techniques, in-depth articles, and high-resolution images.
+tags: watchmaking-round-up
 ---
 
 {{ page.excerpt }}

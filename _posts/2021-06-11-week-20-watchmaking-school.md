@@ -4,6 +4,7 @@ image: /images/student-blog/turning-w-01-winding-stem.jpeg
 image-alt: "Turning W-01 winding stem"
 excerpt: "Finished square shaft exercise to practice filing a square. Started using tungsten gravers which are easier to sharpen and stay sharp for longer. Started making my first W-01 winding stem. Notes on site updates, and first weekly reading."
 title: "Week 20: Watchmaking School"
+tags: watchmaking-school-weekly
 ---
 
 {{ page.excerpt }}

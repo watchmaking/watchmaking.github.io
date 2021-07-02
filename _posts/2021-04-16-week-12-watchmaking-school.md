@@ -4,6 +4,7 @@ image: /images/student-blog/black-polishing-on-zinc-block.jpeg
 image-alt: "Black polishing on zinc block"
 excerpt: "Mainly black polishing screws on lapping films and diamond lapping pastes. Filed by hand two cylindrical laps in brass and a filing support block in Acetal. Milled the base of an anvil and pusher box also in Acetal. "
 title: "Week 12: Watchmaking School"
+tags: watchmaking-school-weekly
 ---
 
 {{ page.excerpt }}

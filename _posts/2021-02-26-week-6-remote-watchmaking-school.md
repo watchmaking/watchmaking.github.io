@@ -4,6 +4,7 @@ image: /images/student-blog/eta-955-112-deconstructed.jpg
 image-alt: ETA 955.112 deconstructed
 excerpt: Focusing on quartz movements and working on the ETA 955.112; presentations on quartz, casing, crowns and pushers.
 title: "Week 6: Remote Watchmaking School"
+tags: remote-watchmaking-school-weekly
 ---
 
 {{ page.excerpt }}

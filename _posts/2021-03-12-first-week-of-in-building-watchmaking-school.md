@@ -4,6 +4,7 @@ image: /images/student-blog/using-file-cleaner.jpeg
 image-alt: Using file cleaner
 excerpt: "A busy first week of drilling and filing. I finished two file cleaner tools to within ±0.2 mm tolerances, and started working on a bolt tool (polishing jig)."
 title: "First Week of In-Building Watchmaking School"
+tags: watchmaking-school-weekly
 ---
 
 {{ page.excerpt }}

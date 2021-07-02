@@ -4,6 +4,7 @@ title: "DIY Portable Watchmaker's Bench"
 image: /images/student-blog/diy-portable-watchmakers-bench-render.png
 image-alt: 3D render of the DIY portable watchmaker's bench in Fusion 360
 excerpt: Notes on the construction of a portable watchmaker's bench I made out of solid oak. Complete with all measurements, materials, and tools required.
+tags: before-watchmaking-school
 ---
 
 > To sum up: Banish damp, dirt, draughts and distraction. Encourage comfort, warmth, quiet. Provide good light, good ventilation, good tools and a liberal supply of materials. Good and *profitable* work should result.

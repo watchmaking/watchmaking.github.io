@@ -4,6 +4,7 @@ image: /images/student-blog/motor-lathe-in-box.jpeg
 image-alt: "Motor lathe in box"
 excerpt: "Anvil and box lid exam on Wednesday; prototyped the setting lever jumper for my project watch; worked on the dynamic poising support tool; serviced the 8mm Horia motor and hand lathe, along with the hand wheel. Project watch redesign notes for yoke and yoke spring."
 title: "Week 16: Watchmaking School"
+tags: watchmaking-school-weekly
 ---
 
 {{ page.excerpt }}

@@ -4,6 +4,7 @@ image: /images/student-blog/finished-sawing-support-1.jpeg
 image-alt: "Finished sawing support 1"
 excerpt: "Mostly making practice pieces of the anvil and pusher box lid to prepare for the exam next week. Got the sawing support marked by the tutor, and made some progress on the project watch keyless works."
 title: "Week 15: Watchmaking School"
+tags: watchmaking-school-weekly
 ---
 
 {{ page.excerpt }}

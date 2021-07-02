@@ -4,6 +4,7 @@ image: /images/student-blog/three-bent-winding-stems-in-one-week.jpg
 image-alt: "Three bent winding stems in one week"
 excerpt: "Completed brass staking block project on the Schaublin using the dividing head; bent four stems in one week."
 title: "Week 23: Watchmaking School"
+tags: watchmaking-school-weekly
 ---
 
 {{ page.excerpt }}

@@ -4,6 +4,7 @@ image: /images/student-blog/finished-bolt-tool-1.jpeg
 image-alt: "Finished bolt tool"
 excerpt: "Service practice, checking and adjusting end shakes and divisions in the gear train and escapement, ETACHRON, working on finishing the bolt tool before Easter."
 title: "Week 11: Watchmaking School"
+tags: watchmaking-school-weekly
 ---
 
 {{ page.excerpt }}

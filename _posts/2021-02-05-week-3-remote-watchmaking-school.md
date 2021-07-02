@@ -4,6 +4,7 @@ image: /images/student-blog/multiplying-gear-train-with-centre-wheel.png
 image-alt: Multiplying gear train with centre wheel
 excerpt: This week we started working on the ETA 2824-2 automatic calibre and covered the theory surrounding the gear train, gearing and transmission, shock systems, frequency, and hairspring vibrating. Earlier in the week we were shown service inspection points on the ETA 6498-1.
 title: "Week 3: Remote Watchmaking School"
+tags: remote-watchmaking-school-weekly
 ---
 
 {{ page.excerpt }}

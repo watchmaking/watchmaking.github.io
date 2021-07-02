@@ -4,6 +4,7 @@ image: /images/student-blog/vernier-caliper-and-micrometer.jpg
 image-alt: Vernier caliper and micrometer in black wooden Bergeon box
 excerpt: In the first week we got an overview of the toolkit we purchased for the course, calibration techniques for the vernier caliper and micrometer, screwdriver blade making and sharpening, ETA 6498-1 disassembly and assembly, uncasing, screw identification, keyless works theory, and discussion of personal project ideas.
 title: "Week 1: Remote Watchmaking School"
+tags: remote-watchmaking-school-weekly
 ---
 
 {{ page.excerpt }}

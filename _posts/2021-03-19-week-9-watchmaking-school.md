@@ -4,6 +4,7 @@ image: /images/student-blog/bolt-tool-almost-finished.jpeg
 image-alt: "Bolt tool almost finished"
 excerpt: "A week of filing, milling, drilling, and tapping the main body of the bolt tool."
 title: "Week 9: Watchmaking School"
+tags: watchmaking-school-weekly
 ---
 
 {{ page.excerpt }}

@@ -3,6 +3,7 @@ layout: post
 image: /images/student-blog/practice-movements-2.jpg
 image-alt: Set of nicer movements to practise on
 excerpt: Notes on how I prepared before applying to watchmaking school; what books I read; what online courses I bought; what tools I restored and made; and some dexterity exercises I practised.
+tags: before-watchmaking-school
 ---
 
 I believe I got into watchmaking school without much trouble because I was prepared and passionate. The global situation which forced the interview process to be conducted entirely online might have also been a factor.

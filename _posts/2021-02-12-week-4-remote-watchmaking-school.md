@@ -4,6 +4,7 @@ image: /images/student-blog/eta-2824-2-calendar-and-automatic-works.jpg
 image-alt: ETA 2824-2 calendar mechanism and automatic works
 excerpt: This week mostly theory on the concept of time, reading measurements and technical drawings, marking out materials, and sawing. We disassembled and assembled the automatic works and calendar mechanism of the ETA 2824-2 and had a small theory test on Friday.
 title: "Week 4: Remote Watchmaking School"
+tags: remote-watchmaking-school-weekly
 ---
 
 {{ page.excerpt }}

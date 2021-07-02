@@ -4,6 +4,7 @@ image: /images/student-blog/differential-screw-winding-indicator-2.jpg
 image-alt: Differential screw winding indicator
 excerpt: Short notes about the last week of remote watchmaking school, before we get back into the building on Monday.
 title: "Last Week of Remote Learning"
+tags: remote-watchmaking-school-weekly
 ---
 
 In this final week of remote learning we slowly ran out of material we could cover at home. If we had to continue remote watchmaking school we would have been sent the ETA 7751 early. Fortunately, next week we can get into the building.

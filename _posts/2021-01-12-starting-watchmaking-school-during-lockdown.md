@@ -3,6 +3,7 @@ layout: post
 image: /images/student-blog/training-watch-movements.jpg
 image-alt: Training watch movements
 excerpt: Watchmaking school was supposed to start this week, but due to the national lockdown measures we have to begin remotely. Here I describe initial toolkit contents and ways of how we're likely to proceed.
+tags: before-watchmaking-school
 ---
 
 I was set to begin the 3000-hour WOSTEP course this week but due to strict state restrictions the school has closed until further notice. For the time being, we are planning on focusing on theory and basic movement disassembly at home. The [portable watchmaker's bench](/student-blog/diy-portable-watchmakers-bench) I made will be of much use.

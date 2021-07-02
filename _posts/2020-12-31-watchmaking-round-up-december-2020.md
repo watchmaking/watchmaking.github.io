@@ -4,6 +4,7 @@ title: "Watchmaking Round-Up: December 2020"
 image: //images.weserv.nl/?url=//watchesbysjx.com/wp-content/uploads/2020/12/marco-lang-Zweigesicht-1-movement-3.jpg
 image-alt: Marco Lang
 excerpt: A December watchmaking round-up from around the internet, focusing on techniques, in-depth articles, and high-resolution images.
+tags: watchmaking-round-up
 ---
 
 {{ page.excerpt }}

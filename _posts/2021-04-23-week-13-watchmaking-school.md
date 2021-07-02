@@ -4,6 +4,7 @@ image: /images/student-blog/wip-3-sided-cutter-with-chalked-file.jpeg
 image-alt: "Work in progress: 3 sided cutter with chalked file"
 excerpt: "A week of tool making: finished anvil and pusher box base, flat brass lap, brass scraper, steel 3 sided cutter/scriber, and screw bluing plate. Some theory on hardening/tempering, surface finish, and grinding/sharpening principles."
 title: "Week 13: Watchmaking School"
+tags: watchmaking-school-weekly
 ---
 
 {{ page.excerpt }}

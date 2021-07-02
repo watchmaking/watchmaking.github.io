@@ -3,6 +3,7 @@ layout: post
 image: /images/student-blog/spatial-awareness-test-example.jpg
 image-alt: Spatial awareness test example
 excerpt: Notes on the application process for the WOSTEP 3'000-hour Program taught in a watchmaking school in Europe; what the assessment day might entail; how the assessment process differed due to the 2020 pandemic; and what the schools are looking for in applicants.
+tags: before-watchmaking-school
 ---
 
 The usual application and interview process for the WOSTEP 3'000-hour Program I applied for differed from previous years. Due to the unique situation of the year 2020, the typical assessment consisting of an interview, theory test (numerical and problem solving) and a dexterity test was replaced by an 2-hour online numeracy and logic multiple-choice test followed by a 30-minute video interview.

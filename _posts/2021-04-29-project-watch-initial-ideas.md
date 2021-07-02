@@ -4,6 +4,7 @@ image: /images/student-blog/A-Lange-Sohne-1815-Thin-Honey-Gold-Homage-FA-Lange-r
 image-alt: "A. Lange & Söhne 1815 Thin Honeygold"
 excerpt: "General project watch ideas including design and features of dial and movement side. The idea is a well finished open dial (not skeleton) design with improved features to accommodate traditional solutions for the click spring and keyless works."
 title: "Project Watch: Initial Ideas"
+tags: project-watch
 ---
 
 More in-depth discussion of project watch ideas today.

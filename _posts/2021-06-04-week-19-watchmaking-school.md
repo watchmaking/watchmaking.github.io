@@ -4,6 +4,7 @@ image: /images/student-blog/cleaned-grandfathers-watch.jpeg
 image-alt: "Cleaned grandfather's watch"
 excerpt: "Motor turning exercises: stepped bar, slotted bar. Filing squares whilst in the lathe using a roller, turning blanks for the square shaft exercise. Moved to turning on the hand wheel. Microscope close-ups of the Omega 1866 and Wempe Chronometer calibre."
 title: "Week 19: Watchmaking School"
+tags: watchmaking-school-weekly
 ---
 
 {{ page.excerpt }}

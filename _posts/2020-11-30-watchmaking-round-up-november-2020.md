@@ -4,6 +4,7 @@ title: "Watchmaking Round-Up: November 2020"
 image: //images.weserv.nl/?url=//storage.googleapis.com/pubzapuscentral/watchprosite/breguet/102/raw/breguet_6683736.jpg&w=1024&h=1024&fit=inside&we&output=webp
 image-alt: Breguet
 excerpt: A November watchmaking round-up from around the internet, focusing on techniques, in-depth articles, and high-resolution images.
+tags: watchmaking-round-up
 ---
 
 {{ page.excerpt }}

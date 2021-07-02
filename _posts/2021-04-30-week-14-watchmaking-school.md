@@ -4,6 +4,7 @@ image: /images/student-blog/brass-and-steel-cubes.jpeg
 image-alt: "Brass and steel cubes"
 excerpt: "Working on the brass and steel cubes, sawing support, dynamic poising support, and discussing ideas for project watch."
 title: "Week 14: Watchmaking School"
+tags: watchmaking-school-weekly
 ---
 
 {{ page.excerpt }}

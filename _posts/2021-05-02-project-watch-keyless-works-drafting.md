@@ -4,6 +4,7 @@ image: /images/student-blog/setting-lever-jumper-draft-3.jpg
 image-alt: "Setting lever jumper draft #3"
 excerpt: "As per my plan to focus on the dial side of my project watch first, I drafted and developed some ideas for the keyless works area. The keyless mechanism in ETA 6498 is ugly and cheap. I want to improve the setting lever jumper and the yoke/yoke spring components."
 title: "Project Watch: Keyless Works Drafting"
+tags: project-watch
 ---
 
 {{ page.excerpt }}

@@ -4,6 +4,7 @@ image: /images/student-blog/good-bluing-swarf.jpeg
 image-alt: "Another completed winding stem"
 excerpt: "Finished barrel closer tool on Schaublin 70; practiced more winding stem turning; worked out how to achieve more consistent stem bluing; and experimented with square lapping using a brass lap."
 title: "Week 22: Watchmaking School"
+tags: watchmaking-school-weekly
 ---
 
 {{ page.excerpt }}

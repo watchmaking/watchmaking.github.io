@@ -4,6 +4,7 @@ image: /images/student-blog/eta-6498-1-train-bridge-oiled.jpeg
 image-alt: "ETA 6498-1 train bridge oiled"
 excerpt: "Servicing practice on ETA 6498-1 movements: stripping, cleaning, lubrication, mainspring winding."
 title: "Week 10: Watchmaking School"
+tags: watchmaking-school-weekly
 ---
 
 {{ page.excerpt }}

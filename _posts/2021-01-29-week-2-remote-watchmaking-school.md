@@ -4,6 +4,7 @@ image: /images/student-blog/mainspring-torque.png
 image-alt: Mainspring torque graph
 excerpt: This week we covered keyless works theory calculations, barrel complete theory, mainspring calculations, and constant force mechanisms.
 title: "Week 2: Remote Watchmaking School"
+tags: remote-watchmaking-school-weekly
 ---
 
 {{ page.excerpt }}

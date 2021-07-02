@@ -4,6 +4,7 @@ image: /images/student-blog/winding-stem-slotting.jpeg
 image-alt: "Winding stem slotting"
 excerpt: "Broke two winding stems whilst slot cutting; discussed exam marking criteria for winding stem intermediate exam in July; turned first working stem; Schaublin 70 introduction and start of projects; new health guides."
 title: "Week 21: Watchmaking School"
+tags: watchmaking-school-weekly
 ---
 
 {{ page.excerpt }}

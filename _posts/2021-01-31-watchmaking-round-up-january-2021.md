@@ -4,6 +4,7 @@ title: "Watchmaking Round-Up: January 2021"
 image: //images.weserv.nl/?url=//cdn.shopify.com/s/files/1/0606/5325/files/The-Leap-Forwards-of-Perpetual-Calendars-A-Collected-Man-9B.jpg?v=1610107649
 image-alt: The inner workings of Greubel Forsey's simplified perpetual calendar
 excerpt: A January watchmaking round-up from around the internet, focusing on in-depth articles and high-resolution images.
+tags: watchmaking-round-up
 ---
 
 {{ page.excerpt }}
