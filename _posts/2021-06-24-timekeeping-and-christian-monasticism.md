@@ -4,6 +4,7 @@ image: /images/student-blog/medieval-monks.webp
 image-alt: "Medieval monks, extract from scroll"
 excerpt: "An extract from Christianson's book, *Timepieces: Masters of Chronometry*, which explains the influence of the Christian monastic tradition on the invention of the first all-mechanical clocks."
 title: "Timekeeping and Christian Monasticism"
+tags: picks
 ---
 
 <em> {{ page.excerpt }} </em>

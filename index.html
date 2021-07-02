@@ -11,7 +11,7 @@ title: A watchmaking student's resource, study guide and blog
 		<h2>Latest <a href="/student-blog">student blog</a> posts</h2>
 		<ul class="posts updates">
 			{% assign posts = site.posts | sort: "date" | reverse %}
-			{% for post in posts limit: 3 %}
+			{% for post in posts limit: 2 %}
 				<li itemprop="hasPart" itemscope itemtype="https://schema.org/ItemPage">
 					<h3>
 						<a itemprop="url" href="{{ post.url }}">
@@ -19,6 +19,18 @@ title: A watchmaking student's resource, study guide and blog
 						</a>
 					</h3>
 					<h4>Published: <span itemprop="datePublished">{{ post.date | date_to_long_string }}</span></h4>
+					<a href="{{ post.url }}"><img itemprop="image" src="{{ post.image }}" alt="{{ post.image-alt  }}" /></a>
+					<div itemprop="description">{{ post.excerpt | markdownify }}</div>
+				</li>
+			{% endfor %}
+			{% for post in site.tags.picks %}
+				<li itemprop="hasPart" itemscope itemtype="https://schema.org/ItemPage">
+					<h3>
+						<a itemprop="url" href="{{ post.url }}">
+							<span itemprop="name">{{ post.title }}</span>
+						</a>
+					</h3>
+					<h4>Published: <span itemprop="datePublished">{{ post.date | date_to_long_string }}</span> (editor's pick)</h4>
 					<a href="{{ post.url }}"><img itemprop="image" src="{{ post.image }}" alt="{{ post.image-alt  }}" /></a>
 					<div itemprop="description">{{ post.excerpt | markdownify }}</div>
 				</li>
